@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <body>
+    <h1>Short HTML Validation</h1>
+    <form action="" method="POST">
+      <label for="text">Enter your name here:</label>
+    	<input id="name" name="name" type="text" required minlength="3" maxlength="100">
+      <br><br>
+      <label for="number">Enter your age here:</label>
+      <input type="number" name="age" id="age" required min="1" max="123">
+      <br><br>
+        <label for="ananas">Some text: (hint: starts with an "A")</label>
+  <input id="ananas" name="ananas" type="text" required pattern="[aA]nanas">
+      <br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
